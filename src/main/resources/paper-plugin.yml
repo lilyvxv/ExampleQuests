@@ -1,0 +1,9 @@
+name: ExampleQuests
+version: '${version}'
+main: me.github.lilyvxv.examplequests.ExampleQuests
+api-version: '1.20'
+dependencies:
+  - name: Quests
+    required: true
+load-after:
+  - name: Quests
